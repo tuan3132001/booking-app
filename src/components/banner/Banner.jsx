@@ -16,6 +16,7 @@ const Banner = () => {
             key: 'selection'
         }
     ]);
+    console.log(date);
     const [options, setOptions] = useState({
         adult: 1,
         children: 0,
