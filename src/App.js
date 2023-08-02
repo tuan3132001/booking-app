@@ -2,11 +2,12 @@ import {
   BrowserRouter,
   Routes,
   Route,
-} from "react-router-dom";
+} from 'react-router-dom';
+import React from 'react';
 import './App.css';
-import Home from "./pages/home/Home";
-import List from "./pages/list/List";
-import Hotel from "./pages/hotel/Hotel";
+import Home from './pages/home/Home';
+import List from './pages/list/List';
+import Hotel from './pages/hotel/Hotel';
 
 function App() {
   return (
