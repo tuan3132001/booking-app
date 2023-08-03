@@ -37,6 +37,7 @@ const Search = () => {
       };
     });
   };
+
   return (
     <div>
       <div className="bannerSearch">

@@ -5,13 +5,15 @@ import Banner from '../../components/banner/Banner';
 import Featured from '../../components/featured/Featured';
 import PropertyList from '../../components/propertyList/PropertyList';
 import FeatureProperties from '../../components/featureProperties/FeatureProperties';
+import MailList from '../../components/mailList/MailList';
+import Footer from '../../components/footer/Footer';
 const Home = () => {
   return (
-    <div>
+    <div className="relative ">
       <Navbar />
       <Header />
-      <Banner />
-      <div className="mt-[50px] flex flex-col items-center gap-[30px]">
+      <Banner className="absolute" />
+      <div className=" flex flex-col items-center gap-[30px]">
         <Featured />
         <h1 className="w-[1024px] text-[24px] absolute top-[850px] font-bold ">
           Tìm theo loại chỗ nghỉ ở Hà Nội
@@ -21,6 +23,8 @@ const Home = () => {
           Nhà mà khách yêu thích
         </h1>
         <FeatureProperties />
+        <MailList />
+        <Footer />
       </div>
     </div>
   );
