@@ -3,17 +3,16 @@
   width: 1036.4px;
   max-width: 1024px;
   background-color: white;
-  border: 5px solid #febb02;
+  border: 6px solid #febb02;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px 0px;
   border-radius: 5px;
-  position: absolute;
-  bottom: -160px;
-  left: 0;
-  right: 0;
+  top: 320px;
   margin: 24px 0px 16px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
 }
 
 .searchIcon {
@@ -25,6 +24,11 @@
   background-color: #006ce4;
   padding: 10px 10px;
   border-radius: 5px;
+  width: 81.99px;
+  height: 53.61px;
+  line-height: 28px;
+  font-weight: 500;
+  font-size: 20px;
 }
 .searchItem {
   display: flex;
@@ -36,19 +40,18 @@
   outline: none;
 }
 .searchText {
-  color: lightgray;
+  color: black;
   cursor: pointer;
 }
 
 .date {
   position: absolute;
   top: 50px;
-  z-index: 2;
   margin-top: 15px;
+  margin-right: 100px;
 }
 
 .options {
-  z-index: 2;
   position: absolute;
   top: 50px;
   background-color: white;

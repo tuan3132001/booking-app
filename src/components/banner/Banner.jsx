@@ -22,10 +22,10 @@ const Banner = ({ type }) => {
             <button className="bannerButton">
               Tìm nhà nghỉ dưỡng{' '}
             </button>
-            <Search />
           </div>
         </>
       )}
+      <Search />
     </div>
   );
 };

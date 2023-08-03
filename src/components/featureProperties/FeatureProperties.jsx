@@ -30,7 +30,7 @@ const FeatureProperties = () => {
       </div>
       <div className="flex-[1] gap-[10px] flex flex-col">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/29466558.webp?k=7f9cf4736f69b30c20fa7a751bb8711fa195bc9ff6092d5412d52daf6cada17f&o="
           alt=""
           className="w-[256.2px] h-[204.95px] object-cover"
         />
@@ -55,7 +55,7 @@ const FeatureProperties = () => {
       </div>
       <div className="flex-[1] gap-[10px] flex flex-col">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/95058973.webp?k=c4092495705eab3fad626e8e1a43b1daf7c623e4ea41daf26a201b4417a71709&o="
           alt=""
           className="w-[256.2px] h-[204.95px] object-cover"
         />
@@ -80,7 +80,7 @@ const FeatureProperties = () => {
       </div>
       <div className="flex-[1] gap-[10px] flex flex-col">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+          src="https://cf.bstatic.com/xdata/images/hotel/square600/477085213.webp?k=29caadf3e1563bb00c8f93a2af40946a5205edd01343aeb5703ff6740613f747&o="
           alt=""
           className="w-[256.2px] h-[204.95px] object-cover"
         />

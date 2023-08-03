@@ -2,8 +2,8 @@ import React from 'react';
 
 const Featured = () => {
   return (
-    <div className="w-full absolute flex justify-center  max-width-[1024px] z-[1]">
-      <div className="flex space-x-[62px] ">
+    <div className=" mt-[70px] w-full absolute flex justify-center  max-width-[1024px] z-[-1]">
+      <div className="flex space-x-[62px]">
         <div className="relative text-white rounded-[10px] overflow-hidden ">
           <img
             src="https://tse2.mm.bing.net/th?id=OIP.2uwXZ0n9IjdCtwonqP0unwHaFD&pid=Api&P=0&h=180"
