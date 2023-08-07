@@ -12,7 +12,7 @@
 .bannerContent {
   position: absolute;
   top: 40%; /* Đưa phần tử văn bản vào giữa banner theo chiều dọc */
-  left: 30%; /* Đưa phần tử văn bản vào giữa banner theo chiều ngang */
+  left: 29%; /* Đưa phần tử văn bản vào giữa banner theo chiều ngang */
   transform: translate(
     -50%,
     -50%
