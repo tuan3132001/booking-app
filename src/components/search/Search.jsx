@@ -11,9 +11,11 @@ import {
 import { DateRange } from 'react-date-range';
 import { format } from 'date-fns';
 import { Button } from 'antd';
+import { useNavigate } from 'react-router-dom';
 const Search = () => {
   const [openDate, setOpenDate] = useState(false);
   const [openOptions, setOpenOptions] = useState(false);
+  const [destination, setDestination] = useState(false);
   const [date, setDate] = useState([
     {
       startDate: new Date(),
@@ -37,7 +39,12 @@ const Search = () => {
       };
     });
   };
-
+  const navigate = useNavigate();
+  const handleSearch = () => {
+    navigate('/hotels', {
+      state: { destination, date, options },
+    });
+  };
   return (
     <div>
       <div className="bannerSearch">
@@ -50,6 +57,7 @@ const Search = () => {
             type="text"
             placeholder="Bạn muốn đến đâu?"
             className="searchInput"
+            onChange={(e) => setDestination(e.target.value)}
           />
         </div>
         <div className="searchItem">
@@ -74,6 +82,7 @@ const Search = () => {
               moveRangeOnFirstSelection={false}
               ranges={date}
               className="date"
+              minDate={new Date()}
             />
           )}
         </div>
@@ -177,7 +186,12 @@ const Search = () => {
           )}
         </div>
         <div className="searchItem">
-          <button className="searchButton">Tìm</button>
+          <button
+            className="searchButton"
+            onClick={handleSearch}
+          >
+            Tìm
+          </button>
         </div>
       </div>
     </div>

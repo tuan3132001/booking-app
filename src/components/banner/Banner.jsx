@@ -23,9 +23,9 @@ const Banner = ({ type }) => {
               Tìm nhà nghỉ dưỡng{' '}
             </button>
           </div>
+          <Search />
         </>
       )}
-      <Search />
     </div>
   );
 };
